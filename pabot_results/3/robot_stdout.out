@@ -1,0 +1,13 @@
+==============================================================================
+Testsuite Sprint1 :: Basic Login Check                                        
+==============================================================================
+Test Case 004 :: Testcase to validate basic login                     | FAIL |
+TimeoutException: Message: Timed out waiting for page to load.
+------------------------------------------------------------------------------
+Testsuite Sprint1 :: Basic Login Check                                | FAIL |
+Suite teardown failed:
+No keyword with name 'Terminate All Processes' found.
+
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Kamalakkannan\PycharmProjects\RobotFramework_1\pabot_results\3\output.xml

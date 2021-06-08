@@ -1,0 +1,12 @@
+1622466327547	geckodriver	INFO	Listening on 127.0.0.1:65046
+1622466330529	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KAMALA~1\\AppData\\Local\\Temp\\rust_mozprofile6WZBra"
+1622466349402	Marionette	INFO	Marionette enabled
+[Parent 17112, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622466393579	Marionette	INFO	Listening on port 57114
+1622466490212	Marionette	INFO	Stopped listening on port 57114
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

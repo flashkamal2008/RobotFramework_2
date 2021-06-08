@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210531 15:08:29.379" rpa="false" schemaversion="2">
+<suite id="s1" name="Testsuite Sprint1" source="C:\Users\Kamalakkannan\PycharmProjects\RobotFramework_1\TestCases\testsuite_sprint1.robot">
+<test id="s1-t1" name="Test Case 002">
+<kw name="Set Screenshot Directory" library="SeleniumLibrary">
+<arg>Screenshots</arg>
+<doc>Sets the directory for captured screenshots.</doc>
+<status status="PASS" starttime="20210531 15:08:30.035" endtime="20210531 15:08:30.035"/>
+</kw>
+<kw name="Navigate Browser" library="loginpage_fv">
+<arg>${Application_URL}</arg>
+<arg>chrome</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${arg1}</arg>
+<arg>${arg2}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210531 15:08:30.035" level="INFO">Opening browser 'chrome' to base url 'http://demo.nopcommerce.com'.</msg>
+<status status="PASS" starttime="20210531 15:08:30.035" endtime="20210531 15:08:38.245"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210531 15:08:41.253" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210531 15:08:38.245" endtime="20210531 15:08:41.253"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210531 15:09:05.951" level="FAIL">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=91.0.4472.77)
+</msg>
+<status status="FAIL" starttime="20210531 15:08:53.833" endtime="20210531 15:09:05.951"/>
+</kw>
+<msg timestamp="20210531 15:09:05.951" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: WebDriverException: Message: chrome not reachable
+  (Session info: chrome=91.0.4472.77)
+</msg>
+<msg timestamp="20210531 15:09:05.951" level="FAIL">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=91.0.4472.77)
+</msg>
+<status status="FAIL" starttime="20210531 15:08:41.253" endtime="20210531 15:09:05.951"/>
+</kw>
+<status status="FAIL" starttime="20210531 15:08:30.035" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>xpath://a[contains(text(),'Log in')]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>xpath://button[contains(text(),'Register')]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Capture Element Screenshot" library="SeleniumLibrary">
+<arg>xpath://button[contains(text(),'Register')]</arg>
+<doc>Captures a screenshot from the element identified by ``locator`` and embeds it into log file.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://button[contains(text(),'Register')]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<arg>Gender</arg>
+<arg>M</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:FirstName</arg>
+<arg>abcdeee</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:LastName</arg>
+<arg>jdsfsjdf</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<arg>DateOfBirthDay</arg>
+<arg>7</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<arg>DateOfBirthMonth</arg>
+<arg>January</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<arg>DateOfBirthYear</arg>
+<arg>1987</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:Email</arg>
+<arg>jdsfsjdf@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:Company</arg>
+<arg>Company01</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>id:Password</arg>
+<arg>Testing@143</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>id:ConfirmPassword</arg>
+<arg>Testing@143</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>id:register-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<arg>xpath://h1[contains(text(),'Register')]</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<arg>xpath://div[contains(text(),'Your registration completed')]</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="NOT RUN" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951"/>
+</kw>
+<doc>Testcase to validate basic login</doc>
+<tag>logincheck 002-Chrome Browser</tag>
+<status status="FAIL" starttime="20210531 15:08:30.035" endtime="20210531 15:09:05.951">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=91.0.4472.77)
+</status>
+</test>
+<kw name="Terminate All Processes" type="TEARDOWN">
+<arg>kill=True</arg>
+<msg timestamp="20210531 15:09:05.951" level="FAIL">No keyword with name 'Terminate All Processes' found.</msg>
+<status status="FAIL" starttime="20210531 15:09:05.951" endtime="20210531 15:09:05.951">No keyword with name 'Terminate All Processes' found.</status>
+</kw>
+<doc>Basic Login Check</doc>
+<status status="FAIL" starttime="20210531 15:08:29.379" endtime="20210531 15:09:05.951">Suite teardown failed:
+No keyword with name 'Terminate All Processes' found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">logincheck 002-Chrome Browser</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Testsuite Sprint1">Testsuite Sprint1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210531 15:08:29.363" level="ERROR">Error in file 'C:\Users\Kamalakkannan\PycharmProjects\RobotFramework_1\TestCases\testsuite_sprint1.robot' on line 46: Setting 'Documentation' is allowed only once. Only the first value is used.</msg>
+<msg timestamp="20210531 15:08:29.363" level="ERROR">Error in file 'C:\Users\Kamalakkannan\PycharmProjects\RobotFramework_1\TestCases\testsuite_sprint1.robot' on line 47: Setting 'Tags' is allowed only once. Only the first value is used.</msg>
+<msg timestamp="20210531 15:09:05.951" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: WebDriverException: Message: chrome not reachable
+  (Session info: chrome=91.0.4472.77)
+</msg>
+</errors>
+</robot>

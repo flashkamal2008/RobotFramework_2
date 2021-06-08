@@ -1,0 +1,5 @@
+[ ERROR ] Error in file 'C:\Users\Kamalakkannan\PycharmProjects\RobotFramework_1\TestCases\testsuite_sprint1.robot' on line 46: Setting 'Documentation' is allowed only once. Only the first value is used.
+[ ERROR ] Error in file 'C:\Users\Kamalakkannan\PycharmProjects\RobotFramework_1\TestCases\testsuite_sprint1.robot' on line 47: Setting 'Tags' is allowed only once. Only the first value is used.
+[ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: WebDriverException: Message: chrome not reachable
+  (Session info: chrome=91.0.4472.77)
+

@@ -1,0 +1,8 @@
+datasources:bfda97635e19f0e046f7fdbdf9bf37efadf144c9
+commandlineoptions:65f95c924ba97541f47949701c4e3c51192a5b43
+suitesfrom:no-suites-from-option
+file:18d5575288c6f94d9815dcedc00f53d09cd7089e
+--test Testsuite Sprint1.Test Case 001
+--test Testsuite Sprint1.Test Case 002
+--test Testsuite Sprint1.Test Case 003
+--test Testsuite Sprint1.Test Case 004

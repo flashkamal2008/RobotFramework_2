@@ -1,0 +1,13 @@
+==============================================================================
+Testsuite Sprint1 :: Basic Login Check                                        
+==============================================================================
+Test Case 003 :: Testcase to validate basic login                     | FAIL |
+WebDriverException: Message: Failed to decode response from marionette
+------------------------------------------------------------------------------
+Testsuite Sprint1 :: Basic Login Check                                | FAIL |
+Suite teardown failed:
+No keyword with name 'Terminate All Processes' found.
+
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Kamalakkannan\PycharmProjects\RobotFramework_1\pabot_results\2\output.xml
